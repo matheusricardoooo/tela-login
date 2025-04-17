@@ -31,14 +31,14 @@
     box-shadow: 10px 10px 55px #00ff88;
 }
 
-.card-login .tittle h1 {
+.card-login .tittle {
     color: #00ff88;
     padding-top: 50px;
     font-size: 1.5rem;
 }
 
 .card-login .textfield {
-    padding-top: 80px;
+    padding-top: 60px;
 }
 
 .card-login .user {
@@ -103,6 +103,11 @@
     letter-spacing: 3px;
     background-color: #00ff88;
     color: #2f2841;
+    transition: 0.3s;
+}
+
+.card-login .btn button:hover {
+    transform: scale(1.1);
 }
 
 @media screen and (max-width: 1024px) {
