@@ -1,0 +1,106 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.left-login {
+    margin-top: 10%;
+}
+
+.left-login h1 {
+    font-size: 2.5rem;
+    color: #00ff88;
+}
+
+.left-login img {
+    padding-right: 20px;
+}
+
+.card-login {
+    border: 2px solid #00ff88;
+    background-color: #2f2841;
+    width: 30vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 55px #00ff88;
+}
+
+.card-login .tittle {
+    color: #00ff88;
+    padding-top: 50px;
+    font-size: 1.5rem;
+}
+
+.card-login .textfield {
+    padding-top: 80px;
+}
+
+.card-login .user {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    color: #ffffff;
+}
+
+.card-login .user input {
+    border: none;
+    border-radius: 10px;
+    width: 25vw;
+    height: 6vh;
+    padding: 15px;
+    font-size: 1.2rem;
+    background-color: #514869;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+.card-login .user ::placeholder {
+    color: #ffffff;
+}
+
+.card-login .password {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    color: #ffffff;
+}
+
+.card-login .password label {
+    margin-top: 15px;
+}
+
+.card-login .password ::placeholder {
+    color: #ffffff;
+}
+
+.card-login .password input {
+    border: none;
+    border-radius: 10px;
+    width: 25vw;
+    height: 6vh;
+    padding: 15px;
+    font-size: 1.2rem;
+    background-color: #514869;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+.card-login .btn button {
+    width: 25vw;
+    height: 6vh;
+    border: none;
+    border-radius: 10px;
+    margin-top: 30px;
+    font-weight: 800;
+    outline: none;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    background-color: #00ff88;
+    color: #2f2841;
+}
